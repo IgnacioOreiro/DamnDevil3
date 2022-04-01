@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,29 +8,90 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>¿Queres revender? | DamnDevil.IND</title>
 </head>
+
 <body>
-<header>
-    <section>
-        <nav>
-            <ul>
-                <li>
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li>
-                    <a href="./liquidos.html">LIQUIDOS</a>
-                </li>
-                <li>
-                    <a href="./resis.html">RESISTENCIAS</a>
-                </li>
-                <li>
-                    <a href="./faq.html">Preguntas Frecuentes</a>
-                </li>
-                <li>
-                    <a href="./reventa.html">¿Queres revender? | DamnDevil.IND</a>
-                </li>
-            </ul>
-        </nav>
-    </section>
-</header>
+    <header>
+        <section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">INICIO</a>
+                    </li>
+                    <li>
+                        <a href="./liquidos.html">LIQUIDOS</a>
+                    </li>
+                    <li>
+                        <a href="./resis.html">RESISTENCIAS</a>
+                    </li>
+                    <li>
+                        <a href="./faq.html">Preguntas Frecuentes</a>
+                    </li>
+                    <li>
+                        <a href="./reventa.html">¿Queres revender? | DamnDevil.IND</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="title">Registro</div>
+                <div class="content">
+                    <form action="#">
+                        <div class="user-details">
+                            <div class="input-box">
+                                <span class="details">Nombre</span>
+                                <input type="text" placeholder="Ingresa tu Nombre" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Apellido</span>
+                                <input type="text" placeholder="Ingresa tu Apellido" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Email</span>
+                                <input type="text" placeholder="Ingresa tu Email" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Telefono</span>
+                                <input type="text" placeholder="Ingresa tu telefono" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Provincia</span>
+                                <input type="text" placeholder="Ingresa tu provincia" required>
+                            </div>
+                            <div class="input-box">
+                                <span class="details">Localidad</span>
+                                <input type="text" placeholder="Ingresa tu localidad" required>
+                            </div>
+                        </div>
+                        <div class="gender-details">
+                            <input type="radio" name="gender" id="dot-1">
+                            <input type="radio" name="gender" id="dot-2">
+                            <input type="radio" name="gender" id="dot-3">
+                            <span class="gender-title">Selecciona una opción</span>
+                            <div class="category">
+                                <label for="dot-1">
+                                    <span class="dot one"></span>
+                                    <span class="gender">Resis</span>
+                                </label>
+                                <label for="dot-2">
+                                    <span class="dot two"></span>
+                                    <span class="gender">Liquidos</span>
+                                </label>
+                                <label for="dot-3">
+                                    <span class="dot three"></span>
+                                    <span class="gender">Ambos</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="button">
+                            <input type="submit" value="Register">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </header>
 </body>
+
 </html>
